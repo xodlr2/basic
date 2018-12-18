@@ -2,7 +2,7 @@
 /* Includes ------------------------------------------------------------------*/
 //#include "platform_config.h"
 
-#include "main.h"
+#include "platform_config.h"
 
 
 /* Global variable declarations ----------------------------------------------*/

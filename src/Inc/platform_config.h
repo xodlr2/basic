@@ -40,8 +40,8 @@
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __MAIN_H
-#define __MAIN_H
+#ifndef __PLATFORM_CONFIG_H
+#define __PLATFORM_CONFIG_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -52,8 +52,12 @@ extern "C" {
 #include <stdarg.h>
 #include <string.h>
 #include <stdlib.h>
+#include <math.h>
 #include "stm32f1xx_hal.h"
 #include "uart.h"
+#include "delay.h"
+#include "tmc5041_device.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -82,10 +86,7 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define TMC5041_EN_Pin GPIO_PIN_11
-#define TMC5041_EN_GPIO_Port GPIOB
-#define TMC5041_CS_Pin GPIO_PIN_12
-#define TMC5041_CS_GPIO_Port GPIOB
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
@@ -94,6 +95,6 @@ void Error_Handler(void);
 }
 #endif
 
-#endif /* __MAIN_H */
+#endif /* __PLATFORM_CONFIG_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
