@@ -1,0 +1,5 @@
+uart.c:16:6:USART1_UART_Init	8	static
+uart.c:51:6:HAL_UART_MspInit	32	static
+uart.c:92:6:HAL_UART_MspDeInit	0	static
+uart.c:116:6:UART1_PutChar	16	static
+uart.c:121:6:UART1_PutStr	8	static
